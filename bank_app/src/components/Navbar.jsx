@@ -18,7 +18,7 @@ const Navbar = () => {
           <li 
             key={nav.id} 
             className={`font-poppins font-normal cursor-pointer text-[16px] 
-              text-white hover:text-secondary ${index === navLinks.length - 1  ? 'mr-0' : 'mr-10'}`}>
+              text-white hover:text-gray-400 ${index === navLinks.length - 1  ? 'mr-0' : 'mr-10'}`}>
             <a href={`#${nav.id}`}>
               {nav.title}
             </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
               <li 
                 key={nav.id} 
                 className={`font-poppins font-normal cursor-pointer text-[16px]
-                  text-white hover:text-secondary ${index === navLinks.length - 1  ? 'mr-0' : 'mb-4'}`}
+                  text-white hover:text-gray-400 ${index === navLinks.length - 1  ? 'mr-0' : 'mb-4'}`}
                 onClick={() => setToggle((prev) => !prev)}
               >
                 <a href={`#${nav.id}`}>
