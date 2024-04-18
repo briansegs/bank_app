@@ -1,6 +1,7 @@
 import styles from "../style";
 import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
+import SocialIcon from "./SocialIcon";
 
 const Footer = () => (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -37,18 +38,11 @@ const Footer = () => (
 
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
-            <svg
-              width={social.width}
-              height={social.height}
-              viewBox={`0 0 ${social.width} ${social.height}`}
-              key={social.id}
-              xmlns="http://www.w3.org/2000/svg" 
-              className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'} fill-white hover:fill-secondary`}
-            >
-              {social.path.map((path) => (
-                <path d={path} />
-              ))}
-            </svg>
+            <SocialIcon
+              index={index}
+              iconData={social}
+              iconLst={socialMedia}
+            />
           ))}
         </div>
       </div>
