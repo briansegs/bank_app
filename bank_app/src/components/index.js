@@ -12,6 +12,7 @@ import Navbar from "./Navbar";
 import Stats from "./Stats";
 import Testimonials from "./Testimonials";
 import SocialIcon from "./SocialIcon";
+import ReturnToTop from "./ReturnToTop";
 
 export {
     Billing,
@@ -28,4 +29,5 @@ export {
     Stats,
     Testimonials,
     SocialIcon,
+    ReturnToTop,
 };

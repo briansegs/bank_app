@@ -11,6 +11,7 @@ import {
   Navbar,
   Stats,
   Testimonials,
+  ReturnToTop,
 } from "./components"
 
 const App = () => (
@@ -29,6 +30,7 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
+        <ReturnToTop />
         <Stats />
         <Business />
         <Billing />
