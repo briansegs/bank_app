@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { LiaArrowUpSolid } from "react-icons/lia";
+import { PiArrowFatUpFill } from "react-icons/pi";
 
 const ArrowBtn = (props) => (
-    <div className={`fixed bottom-[15%] right-[2%] z-10 rounded-full border-[2.5px] border-gray-500 hover:border-secondary ${props.styles}`}>
+    <div className={`fixed bottom-[15%] right-[1%] z-10 ${props.styles}`}>
         <a href="#home">
-            <LiaArrowUpSolid
-                className="bg-primary text-[5rem] p-4 rounded-full cursor-pointer text-gray-500 hover:text-secondary" 
+            <PiArrowFatUpFill
+                className="bg-primary hover:bg-gray-900 text-[4rem] p-4 rounded-full cursor-pointer text-gray-500 hover:text-secondary" 
             />
         </a>  
     </div>
@@ -29,7 +29,7 @@ const ReturnToTop = () => {
 
     return (
         <>
-        {(scrollPosition > 300 ) && (
+        {(scrollPosition > 400 ) && (
                 <ArrowBtn styles='max_lg:hidden' />
         )}
 
