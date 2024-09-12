@@ -51,4 +51,4 @@ This project is finished.
 
 ## Credits:
 [Figma file](https://www.figma.com/design/bUGIPys15E78w9bs1l4tgS/HooBank?node-id=310-485&node-type=canvas&t=p2MaYql7Ssh5R6RZ-0) - 
-[Creator of the design](https://dribbble.com/OWWStudio) - 
+[Creator of the design](https://dribbble.com/OWWStudio) 
