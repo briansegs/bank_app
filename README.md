@@ -1,5 +1,5 @@
 # Hoo Bank - A Modern UI/UX Business Landing Page
-![site image](https://github.com/briansegs/portfolio-03/blob/main/assets/projects/project3.png)
+![site image](https://github.com/briansegs/bank_app/blob/main/src/assets/project3.png)
 
 ### Demo:
 View the site [here](https://briansegs.github.io/bank_app/)
